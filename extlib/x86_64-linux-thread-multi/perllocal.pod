@@ -1,0 +1,44 @@
+=head2 Sun Jul 26 21:29:35 2020: C<Module> L<Test::Simple|Test::Simple>
+
+=over 4
+
+=item *
+
+C<installed into: /home/maniax/dev/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.302175>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sun Jul 26 21:29:38 2020: C<Module> L<CGI|CGI>
+
+=over 4
+
+=item *
+
+C<installed into: /home/maniax/dev/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.50>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
