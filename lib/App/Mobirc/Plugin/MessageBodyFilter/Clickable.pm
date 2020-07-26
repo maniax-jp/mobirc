@@ -11,6 +11,7 @@ use App::Mobirc::Util;
 has accept_schemes => (
     is  => 'ro',
     isa => 'ArrayRef',
+    default => sub{['http', 'https']},
 );
 
 has http_link_string => (
@@ -38,7 +39,7 @@ has au_pcsv => (
 has pocket_hatena => (
     is  => 'ro',
     isa => 'Bool',
-    default => 1,
+    default => 0,
 );
 
 has google_gwt => (
@@ -94,22 +95,22 @@ sub process_http {
         }eg
     }
 
-    $link_string = encode_entities(uri_unescape($link_string),  q(<>&"));
+    $link_string = uri_unescape($link_string);
     my $encoded_uri = encode_entities($uri, q(<>&"));
 
     if ( $self->redirector ) {
         $out =
         sprintf(
             '<a href="%s%s" rel="nofollow" class="url" target="%s">%s</a>',
-            encode_entities($self->redirector, q(<>&")),
-            $encoded_uri,
+            $self->redirector,
+            $orig_uri,
             $self->http_link_target,
             $link_string );
     } else {
         $out =
         sprintf(
             '<a href="%s" rel="nofollow" class="url" target="%s">%s</a>',
-            $encoded_uri,
+            $orig_uri,
             $self->http_link_target,
             $link_string );
     }
