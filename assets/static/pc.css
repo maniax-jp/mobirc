@@ -1,5 +1,5 @@
 /* page layout */
-* { margin : 0 ; padding : 0 ; font-size: 95%; }
+* { margin : 0 ; padding : 0 ; font-size: 13px; font-weight: 300; font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;}
 body { width : 100% ; }
 #body { position:relative ; }
 #footer { width:100% ; clear:both ; }
