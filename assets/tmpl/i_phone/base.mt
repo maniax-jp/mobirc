@@ -6,6 +6,9 @@
         <meta http-equiv="content-script-type" content="text/javascript" />
         <meta name="robots" content="noindex,nofollow" />
         <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+        <meta name="application-name" content="mobirc" />
+        <link rel="icon" href="/static/apple-touch-icon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/static/apple-touch-icon.png" type="image/png" />
         <link rel="stylesheet" href="/static/mobirc.css" type="text/css" />
         <link rel="stylesheet" href="/static/iphone.css" type="text/css" />
         <title>mobirc</title>

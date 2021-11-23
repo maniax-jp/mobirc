@@ -5,6 +5,9 @@
         <meta http-equiv="Content-Type"  content="text/html; charset=UTF-8" />
         <meta http-equiv="Cache-Control" content="max-age=0" />
         <meta name="robots" content="noindex,nofollow" />
+        <meta name="application-name" content="mobirc" />
+        <link rel="icon" href="/static/apple-touch-icon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/static/apple-touch-icon.png" type="image/png" />
         <link rel="stylesheet" href="/static/mobirc.css" type="text/css" />
         <link rel="stylesheet" href="/static/mobile.css" type="text/css" />
         <title>mobirc</title>
