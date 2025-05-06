@@ -140,6 +140,8 @@ sub process_http {
     return U $out;
 }
 
+*process_https = \&process_http;
+
 sub process_default {
     my ( $self, $uri, $orig_uri, $link_string_table ) = @_;
 
